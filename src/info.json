@@ -1,0 +1,31 @@
+[
+    {
+        "name": "REST API to manage employees",
+        "author": "Victor Moreno",
+        "routes": {
+            "Show all employees" : {
+                "method" : "GET",
+                "route" : "/api/employees"
+            },
+            "Find an employee by ID" : {
+                "method" : "GET",
+                "route" : "/api/employees/:id",
+                "params" : {
+                    "id" : {
+                    "type": "integer"
+                    }
+                }
+            },
+            "Create an employee" : {
+                "method" : "POST",
+                "route" : "/api/employees",
+                "params" : {
+                    "name": "name",
+                    "role": "role",
+                    "salary": "int",
+                    "active": "true/false"
+                }
+            }
+        }
+    }
+]
