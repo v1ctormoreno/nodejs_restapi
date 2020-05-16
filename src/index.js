@@ -21,8 +21,10 @@ app.set('view engine', '.hbs');
 
 //Public
 app.use(express.static(path.join(__dirname, 'public')));
-
+// Routes
 app.use(require(`./routes/default.routes`));
+app.use('/api/employees',require(`./routes/employees.routes`));
+
 
 app.use(morgan('dev'));
 app.use(express.urlencoded({

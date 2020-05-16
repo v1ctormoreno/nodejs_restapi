@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Victor Moreno",
+        "role": "CEO",
+        "salary": 10000,
+        "active": true
+    },
+    {
+        "id": 2,
+        "name": "John Doe",
+        "role": "Operations Manager",
+        "salary": 99999,
+        "active": true
+    }
+]
