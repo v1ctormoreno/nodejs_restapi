@@ -42,3 +42,6 @@ Employee.getAll = result => {
         result(null, res);       
     })
 }
+
+
+module.exports = Employee;
