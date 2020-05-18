@@ -9,6 +9,7 @@ const app = express();
 require('./database');
 
 //Middleware
+app.set('json spaces', 2); -
 app.set('port', process.env.PORT || 4000);
 
 app.use(morgan('dev'));
